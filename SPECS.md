@@ -22,6 +22,12 @@ def first_callback(query, data, chat, message):
     chat.send("some message", syntax="markdown")
 ```
 
+send photo
+```
+bot.chat(specuser).send_photo(photofilepath)
+```
+
+
 ## send message to different users than the chat
 
 send message to different user than the chat
